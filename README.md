@@ -81,14 +81,10 @@ tailwindcss-setup/
    @tailwind base;
    @tailwind components;
    @tailwind utilities;
-
-   @layer utilities {
-     .bg-table-header {
-       background-color: #091a52;
-     }
-     .text-highlight {
-       color: #ff5733;
-     }
+   
+   @theme {
+     --color-table-header: #091a52;
+     --color-highlight: #ff5733;
    }
    ```
 
